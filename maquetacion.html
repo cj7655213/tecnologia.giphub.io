@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAQUETACION</title>
+    <link rel="stylesheet" href="maquetacion.css">
+</head>
+<body>
+    <div class="principal">
+        <!--NAVEGACION-->
+        <nav>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="https://carlosjuarez90.000webhostapp.com/" >Inicio</a></li>
+                    <li><a href="https://carlosjuarez90.000webhostapp.com/informacion-personal/" >Sobre Nosotros</a></li>
+                    <li><a href="https://carlosjuarez90.000webhostapp.com/portafolio-de-trabajo/" >Galeria</a></li>
+                    <li><a href="https://carlosjuarez90.000webhostapp.com/contacto/" >Contacto</a></li>
+                </ul>
+            </div>
+
+        </nav>
+        <!--BANNER PRINCIPAL-->
+        <figure>
+            <img src="imagenes/ima20.jpeg">
+        </figure>
+        <!--BOLQUE DE IMAGENES-->
+        <main>
+            <section>
+                <article>
+                    <section class="form-login">
+                        <h5>INICIAR SECION</h5>
+                        <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
+                        <input class="controls" type="password" name="contraaseña" value="" placeholder="Contraseña">
+                        <input class="buttons" type="sumit" name="" value="Ingresar" onclick="">
+                        <p><a href="#">¿Olvidaste tu Contraseña?</a></p>
+                    </section>
+                </article>
+                <article>
+                    <div class="imagen">
+                    <figure>
+                        <img src="imagenes/ima12.jpeg" width="250px;" height="250 px">
+                    </figure>
+                    </div>
+                </article>
+                <article>
+                    <div class="contenido">
+                        <h3>SOLUCIONES ELECTRICAS </h3>
+                        <h1>Cableado Electrico</h1>
+                        <h1>Canalizaciones</h1>
+                        <h1>Apantallamiento</h1>
+                        <h1>Sistemas de UPS</h1>
+                        <h1>Ilimunacion</h1>
+                        <br>
+                        <h3>SEGURIDAD ELECTRONICA</h3>
+                        <h1>Sistema de Vigilacia</h1>
+                        <h1>Controles de Acceso</h1>
+                        <h1>Deteccion de Incemdios</h1>
+                        <h1>Alarmas</h1>
+                    </div>
+                </article>
+                <article>
+                    <div class="submenu">
+                    <div class="caja"><a href="">ITEM UNO</a></div>
+                    <br>
+                    <div class="caja"><a href="">ITEM DOS</a></div>
+                    <br>
+                    <div class="caja"><a href="">ITEM TRES</a></div>
+                    <br>
+                    <div class="caja"><a href="">ITEM CUATRO</a></div>
+                    <br>
+                    <div class="caja"><a href="">ITEM CINCO</a></div>
+                    <br>
+                    <div class="caja"><a href="">ITEM SEIS</a></div>
+                    <br>
+                    </div>
+                </article>
+                <article>
+                    <div class="gracias">
+                        Gracias por contactarnos y poner tu confianza
+                        <br>en nosotros. Nuestra capacidad y experiencia
+                        <br>que hemos acumulado nos ha preparado para 
+                        <br>ayudarte en todo lo que requeraas para tu
+                        <br>empresa, juntos impulsaremos tu proyecto 
+                        <br>>hacia el desarrollo en brebe noa pondremos
+                        <br> en contaccto contigo 
+                    </div>
+                </article>
+                <!--conversor de bolivianos a dolar-->
+                <article>
+                    <section class="conversore">
+                        <script  type="text/javascript">
+                            function convertir(){
+                                var valore = parseInt(document.getElementById("valor").value);
+                                var resultado = 0;
+                                var dolar = 7;
+                                
+                                if(document.getElementById("uno").checked){
+                                    resultado=valore/dolar;
+                                    alert("El cambio de Bolivianos a Dolares es:  " + resultado.toFixed(2) +"  $");
+                                }
+                                else if (document.getElementById("dos").checked){
+                                    resultado=valore*dolar;
+                                    alert("El cambio de Dolares a Bolivianos es:  " + resultado.toFixed(2) +"  bs");
+                                }
+                                else{
+                                    alert("tienes que completar todos los requerimientos")
+                                }
+                               
+                            }
+                        </script>
+                    
+                        </head>
+                        <body>
+                            <h2> CONVERSOR DE DOLAR/BS--BS/DOLAR</h2>
+                            <form class="form-conversor">
+                                <br>
+                                <p>Seleccionar Moneda a Cotizar:</p>
+                                <br>
+                                <input class="selectorM" type="radio" name="cambio" id="uno" ><p> Bs/Dolar</p>
+                                <input class="selectorM" type="radio" name="cambio" id="dos" ><p>Dolar/Bs</p>
+                                <p>Ingrese Monto:</p>
+                                <br>
+                                <input class="controls" type="number" id="valor" min="1" max="100000">
+                            
+                                <input class="buttons" type="button" id="cotizador" value="Cotizar" onclick="convertir()";>
+                    
+                            </form>
+                        </body>
+                    </section>
+                </div>
+                    
+                </article>
+                
+
+            </section>
+            
+        </main>
+        <!--PIE DE PAGINA-->
+        <footer>
+            <div class="caja-pie"><a href="https://carlosjuarez90.000webhostapp.com/">CARLOS EDUARDO JUAREZ CONZALES</a></div>
+        </footer>
+    </div>
+</body>
+</html>
